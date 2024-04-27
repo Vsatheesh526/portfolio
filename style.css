@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.div1{
+    display: flex;
+    background:rgb(0, 0, 0); 
+}
+.div11>img{
+    width: 40%;
+    padding: 30px;
+    margin:20px 250px;
+    background-color: black;
+}
+.div12{
+    padding:100px 30px;
+    color: white;
+    margin-top: 40px;
+    background-color: rgb(247, 0, 0);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.div121{
+    display: flex;
+    padding: 20px 0px;
+    
+}
+.div121>button{
+    padding: 10px;
+    margin-left: 25px;
+
+
+}
+.div12 span{
+    color:rgb(0, 0, 0);
+}
+.menu{
+   position:fixed;
+   margin-left: 0px;
+   margin-top: 0px;
+   background-color:rgb(255, 0, 0);
+   width:15%;
+   height:100%;
+   border: 2px solid red;
+}
+.menu li{
+    padding: 10px;
+    text-align: center;
+    margin:10px 10px;
+    background-color: white;
+    list-style: none;
+    cursor: pointer;
+}
+.menu ul>li>a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    
+    
+}
+.menu>a{
+    background-color: white;
+}
+.menu li:hover{
+    background-color:rgb(255, 0, 0);
+    transition: 1s;
+}
+.menu>img{
+    padding: 10px;
+    width: 50px;
+    justify-content: center;
+    margin-left: 10px;
+}
+.div2{
+   background-color: black;
+    height: 20pc;
+}
+.div2 h1,p{
+    color: rgb(255, 255, 255);
+    margin: 0px 210px;
+}
+
+@media screen and (max-width:420px){
+    .div1{
+        display: grid;
+        background-color: rgb(0, 0, 0);
+    }
+    .div11>img{
+        width: 100%;
+        padding: 0px;
+        margin-left:0;
+        
+        
+    }
+    .div12{
+        margin-top:0;
+        color: whitesmoke;
+        background-color: black;
+        margin-top: -10px;
+
+    }
+    .div12 span{
+        color:orangered;
+    }
+    .div121{
+        visibility: hidden;
+    }
+    .menu{
+        visibility: hidden;
+    }
+    .div2 h1,p{
+        margin: 0;
+    }
+    .div2{
+        padding:50px 40px;
+        color: white;
+        margin-top: -100px;
+        background-color: rgb(0, 0, 0);
+        background-image: none;
+        position:static;
+    }
+
+}
